@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\.732adecf48b8d7c078501b36dd3b701c2deabbd4-audit.json",
+    "files": [
+        {
+            "date": 1693085768481,
+            "name": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\phu-2023-27-08-03-error.log",
+            "hash": "ad4b8d1b845a4b517ae21bedd2e438e9a293b48fa9b2781cbc2474a409c1fb57"
+        },
+        {
+            "date": 1693087459935,
+            "name": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\phu-2023-27-08-04-error.log",
+            "hash": "30c3b07940f0f7772883bf56bf68c76321994a0a797cd1e9b0daed61a686107b"
+        }
+    ],
+    "hashType": "sha256"
+}
