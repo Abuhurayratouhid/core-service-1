@@ -22,11 +22,14 @@ const createAcademicSemester = catchAsync(
 );
 
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
-  console.log(req.query);
-  const filters = pick(req.query, ['searchTerm', 'code', 'year']);
+  const filters = pick(req.query, [
+    'searchTerm',
+    'code',
+    'startMonth',
+    'endMonth',
+  ]);
   const options = pick(req.query, ['limit', 'page', 'sortBy', 'sortOrder']);
-  console.log('filters', filters);
-  console.log('options', options);
+
   const result = await AcademicSemesterService.getAllSemesters(
     filters,
     options
@@ -40,7 +43,18 @@ const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getDataById = catchAsync(async (req: Request, res: Response) => {
+  const result = await AcademicSemesterService.getDataById(req.params.id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Academic Semester Created Successfully',
+    data: result,
+  });
+});
+
 export const AcademicSemesterController = {
   createAcademicSemester,
   getAllSemesters,
+  getDataById,
 };

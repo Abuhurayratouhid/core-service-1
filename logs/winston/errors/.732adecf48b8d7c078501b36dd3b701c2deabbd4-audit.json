@@ -14,6 +14,16 @@
             "date": 1693087459935,
             "name": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\phu-2023-27-08-04-error.log",
             "hash": "30c3b07940f0f7772883bf56bf68c76321994a0a797cd1e9b0daed61a686107b"
+        },
+        {
+            "date": 1693224020210,
+            "name": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\phu-2023-28-08-18-error.log",
+            "hash": "1ccaa68d7d6865e9151d4d4cba5343f259d00c95826a511b9c7a0fc3b820e728"
+        },
+        {
+            "date": 1693361506539,
+            "name": "C:\\typescript\\webdotTow\\CORE-SERVICES\\core-service-1\\logs\\winston\\errors\\phu-2023-30-08-08-error.log",
+            "hash": "41b7cf98b4f2edac70ffb57bd94a13a4e6a4df37ef0990e22857b11f56753c5f"
         }
     ],
     "hashType": "sha256"
